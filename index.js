@@ -1,6 +1,7 @@
 /* jslint node: true, esnext: true */
 "use strict";
 
-const LoadBalancerFactory = require('./lib/load-balancer');
-exports.LoadBalancerFactory = LoadBalancerFactory;
-exports.registerWithManager = manager => manager.registerStep(LoadBalancerFactory);
+const AdapterOutboundHttpFactory = require('./lib/adapter-outbound-http');
+exports.AdapterOutboundHttpFactory = AdapterOutboundHttpFactory;
+
+exports.registerWithManager = manager => manager.registerStep(AdapterOutboundHttpFactory);

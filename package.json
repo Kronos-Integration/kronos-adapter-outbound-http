@@ -26,23 +26,24 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "cz-conventional-changelog": "1.1.5",
     "istanbul": "0.4.2",
     "jsdoc": "3.4.0",
+    "kronos-endpoint": "^2.0.1",
+    "kronos-service": "^2.8.2",
+    "kronos-service-manager": "^3.2.6",
     "mocha": "2.4.5",
     "mock-http": "0.0.9",
-    "semantic-release": "6.2.0",
-    "cz-conventional-changelog": "1.1.5"
+    "nock": "^7.0.2",
+    "semantic-release": "6.2.0"
   },
-  "contributors": [
-    {
-      "name": "Torsten Link",
-      "email": "torstenlink@gmx.de"
-    },
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
+  "contributors": [{
+    "name": "Torsten Link",
+    "email": "torstenlink@gmx.de"
+  }, {
+    "name": "Markus Felten",
+    "email": "markus.felten@gmx.de"
+  }],
   "license": "BSD-2-Clause",
   "config": {
     "commitizen": {
