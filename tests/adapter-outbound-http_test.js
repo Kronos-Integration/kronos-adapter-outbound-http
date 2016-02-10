@@ -80,20 +80,23 @@ describe('Outbound HTTP test', function () {
       }
     };
 
+    adpaterOutboundHttpStep.start().then(() => {
+      const serverMock = nock('http://localhost')
+        .post('/tar/file')
+        .reply(200, {
+          _id: '123ABC',
+          _rev: '946B7D1C',
+          username: 'pgte',
+          email: 'pedro.teixeira@gmail.com'
+        });
 
-    const serverMock = nock('http://localhost')
-      .post('/tar/file')
-      .reply(200, {
-        _id: '123ABC',
-        _rev: '946B7D1C',
-        username: 'pgte',
-        email: 'pedro.teixeira@gmail.com'
+      sendEndpoint.receive(sendMessage).then(res => {
+        console.log(res);
+        done();
       });
 
-    sendEndpoint.receive(sendMessage).then(res => {
-      console.log(res);
-      done();
     });
+
 
 
   });

@@ -29,7 +29,9 @@ class MockUrlProviderService extends service.Service {
 		});
 	}
 
+
 	* serviceURLs(name) {
+		console.log("#### called");
 		while (true) {
 			yield Promise.resolve(this.url);
 		}
