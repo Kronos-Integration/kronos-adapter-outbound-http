@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kronos-Integration/kronos-adapter-outbound-loadbalancer.git"
+    "url": "git+https://github.com/Kronos-Integration/kronos-adapter-outbound-http.git"
   },
   "bugs": {
-    "url": "https://github.com/Kronos-Integration/kronos-adapter-outbound-loadbalancer/issues"
+    "url": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http/issues"
   },
-  "homepage": "https://github.com/Kronos-Integration/kronos-adapter-outbound-loadbalancer#readme",
+  "homepage": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http#readme",
   "engines": {
     "node": ">=5"
   },
@@ -33,13 +33,16 @@
     "semantic-release": "6.2.0",
     "cz-conventional-changelog": "1.1.5"
   },
-  "contributors": [{
-    "name": "Torsten Link",
-    "email": "torstenlink@gmx.de"
-  }, {
-    "name": "Markus Felten",
-    "email": "markus.felten@gmx.de"
-  }],
+  "contributors": [
+    {
+      "name": "Torsten Link",
+      "email": "torstenlink@gmx.de"
+    },
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
   "license": "BSD-2-Clause",
   "config": {
     "commitizen": {
