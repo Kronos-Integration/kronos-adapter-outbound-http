@@ -81,9 +81,9 @@ describe('Outbound HTTP test', function () {
     };
 
     adpaterOutboundHttpStep.start().then(() => {
-      const serverMock = nock('http://localhost')
-        .post('/tar/file')
-        .reply(200, {
+      const serverMock = nock('http://localhost:6666')
+        .post('/file/tar')
+        .reply(123, {
           _id: '123ABC',
           _rev: '946B7D1C',
           username: 'pgte',
@@ -91,7 +91,8 @@ describe('Outbound HTTP test', function () {
         });
 
       sendEndpoint.receive(sendMessage).then(res => {
-        console.log(res);
+        console.log(res.status);
+        assert.equal(res.status, "200");
         done();
       });
 
