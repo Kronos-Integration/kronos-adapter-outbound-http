@@ -3,7 +3,6 @@
   "version": "0.0.0-semantic-release",
   "description": "Demo application for Kronos",
   "keywords": [
-    "kronos-adapter-outbound-http",
     "kronos-step"
   ],
   "main": "index.js",
