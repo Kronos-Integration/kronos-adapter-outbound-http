@@ -47,7 +47,7 @@ describe('Outbound HTTP test', function () {
     });
   });
 
-  it('Send message', function (done) {
+  it('Send message', function () {
 
 
     let adpaterOutboundHttpStep = manager.createStepInstanceFromConfig({
@@ -80,7 +80,7 @@ describe('Outbound HTTP test', function () {
       }
     };
 
-    adpaterOutboundHttpStep.start().then(() => {
+    return adpaterOutboundHttpStep.start().then(() => {
       const serverMock = nock('http://localhost:6666')
         .post('/file/tar')
         .reply(123, {
@@ -90,10 +90,11 @@ describe('Outbound HTTP test', function () {
           email: 'pedro.teixeira@gmail.com'
         });
 
-      sendEndpoint.receive(sendMessage).then(res => {
+      return sendEndpoint.receive(sendMessage).then(res => {
         console.log(res.status);
-        assert.equal(res.status, "200");
-        done();
+        assert.equal(res.status, "123");
+        return Promise.resolve("OK");
+        //done();
       });
 
     });
