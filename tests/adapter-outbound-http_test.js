@@ -49,7 +49,6 @@ describe('Outbound HTTP test', function () {
 
   it('Send message', function () {
 
-
     let adpaterOutboundHttpStep = manager.createStepInstanceFromConfig({
       "type": "kronos-adapter-outbound-http",
       "method": "post",
