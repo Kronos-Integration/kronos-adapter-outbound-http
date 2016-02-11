@@ -1,9 +1,9 @@
 {
-  "name": "kronos-adapter-outbound-loadbalancer",
+  "name": "kronos-adapter-outbound-http",
   "version": "0.0.0-semantic-release",
   "description": "Demo application for Kronos",
   "keywords": [
-    "kronos-adapter-outbound-loadbalancer",
+    "kronos-adapter-outbound-http",
     "kronos-step"
   ],
   "main": "index.js",
