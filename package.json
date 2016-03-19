@@ -29,12 +29,12 @@
     "istanbul": "0.4.2",
     "jsdoc": "3.4.0",
     "kronos-endpoint": "2.0.3",
-    "kronos-service": "2.10.1",
+    "kronos-service": "2.11.0",
     "kronos-service-manager": "^3.2.10",
     "mocha": "2.4.5",
     "mock-http": "0.0.9",
-    "nock": "7.2.2",
-    "semantic-release": "6.2.0"
+    "nock": "7.4.0",
+    "semantic-release": "6.2.1"
   },
   "contributors": [
     {
@@ -53,7 +53,7 @@
     }
   },
   "dependencies": {
-    "form-data": "^1.0.0-rc3",
+    "form-data": "1.0.0-rc4",
     "kronos-step": "^5.0.0",
     "node-fetch": "^1.4.0"
   }
