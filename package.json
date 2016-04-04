@@ -33,7 +33,7 @@
     "kronos-service-manager": "3.2.16",
     "mocha": "2.4.5",
     "mock-http": "0.0.9",
-    "nock": "7.7.2",
+    "nock": "7.7.3",
     "semantic-release": "6.2.1"
   },
   "contributors": [
