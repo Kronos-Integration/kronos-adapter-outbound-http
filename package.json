@@ -55,6 +55,6 @@
   "dependencies": {
     "form-data": "1.0.0-rc4",
     "kronos-step": "^5.3.2",
-    "node-fetch": "^1.5.2"
+    "node-fetch": "^1.5.3"
   }
 }
