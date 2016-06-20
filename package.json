@@ -26,7 +26,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "cz-conventional-changelog": "1.1.6",
-    "istanbul": "0.4.3",
+    "istanbul": "0.4.4",
     "jsdoc": "3.4.0",
     "kronos-endpoint": "^2.13.0",
     "kronos-service": "^3.4.1",
