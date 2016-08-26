@@ -53,7 +53,7 @@
     }
   },
   "dependencies": {
-    "form-data": "1.0.0-rc4",
+    "form-data": "1.0.1",
     "kronos-step": "^5.3.4",
     "node-fetch": "^1.6.0"
   }
