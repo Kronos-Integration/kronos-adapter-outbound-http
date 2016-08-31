@@ -1,7 +1,7 @@
 /* global describe, it, xit, before */
 /* jslint node: true, esnext: true */
 
-"use strict";
+'use strict';
 
 const chai = require('chai'),
   assert = chai.assert,
@@ -20,9 +20,9 @@ const managerPromise = ksm.manager().then(manager =>
     // Register the mock Service factory
     manager.registerServiceFactory(MockUrlProviderService).then(sf =>
       manager.declareService({
-        'type': sf.name,
-        'name': 'registry',
-        'url': 'http://localhost:6666/file/tar'
+        type: sf.name,
+        name: 'registry',
+        url: 'http://localhost:6666/file/tar'
       })),
 
     // ---------------------------
@@ -49,33 +49,33 @@ describe('Outbound HTTP test', function () {
 
   it('Send message', function () {
 
-    let adpaterOutboundHttpStep = manager.createStepInstanceFromConfig({
-      "type": "kronos-adapter-outbound-http",
-      "method": "post",
-      "serviceName": "gumboUrlService"
+    const adpaterOutboundHttpStep = manager.createStepInstanceFromConfig({
+      type: 'kronos-adapter-outbound-http',
+      method: 'post',
+      serviceName: 'gumboUrlService'
     }, manager);
 
     // This endpoint is the OUT endpoint of the previous step.
     // It will be connected with the OUT endpoint of the Adpater
-    let sendEndpoint = new kronosEndpoint.SendEndpoint("testEndpointOut");
+    let sendEndpoint = new kronosEndpoint.SendEndpoint('testEndpointOut');
     let inEndPoint = adpaterOutboundHttpStep.endpoints.in;
     sendEndpoint.connected = inEndPoint;
 
 
     let sendMessage = {
-      "hops": [{
-        "hop": 1
+      hops: [{
+        hop: 1
       }, {
-        "hop": 2
+        hop: 2
       }, {
-        "hop": 3
+        hop: 3
       }],
-      "info": {
-        "name": "gumbo",
-        "any field": "other value"
+      info: {
+        name: 'gumbo',
+        'any field': 'other value'
       },
-      "payload": {
-        "pay_val": " large Value"
+      payload: {
+        pay_val: ' large Value'
       }
     };
 
@@ -90,10 +90,9 @@ describe('Outbound HTTP test', function () {
         });
 
       return sendEndpoint.receive(sendMessage).then(res => {
-        console.log(res.status);
-        assert.equal(res.status, "123");
-        return Promise.resolve("OK");
-        //done();
+        //console.log(res.status);
+        assert.equal(res.status, '123');
+        return Promise.resolve();
       });
 
     });
@@ -162,7 +161,5 @@ describe('Outbound HTTP test', function () {
 //     return postJson.receive(sendMessage, sendMessage);
 //
 //   });
-//
-//
 //
 // });

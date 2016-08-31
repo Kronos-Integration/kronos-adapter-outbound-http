@@ -1,5 +1,5 @@
 /* jslint node: true, esnext: true */
-"use strict";
+'use strict';
 
 const service = require('kronos-service');
 
@@ -7,7 +7,7 @@ const service = require('kronos-service');
 class MockUrlProviderService extends service.Service {
 
 	static get name() {
-		return "registry";
+		return 'registry';
 	}
 
 	get type() {
