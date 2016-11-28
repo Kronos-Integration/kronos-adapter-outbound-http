@@ -28,7 +28,7 @@
     "cz-conventional-changelog": "1.2.0",
     "istanbul": "0.4.5",
     "jsdoc": "3.4.3",
-    "kronos-endpoint": "^2.13.4",
+    "kronos-endpoint": "^2.14.0",
     "kronos-service": "^4.1.6",
     "kronos-service-manager": "^3.4.20",
     "mocha": "3.2.0",
