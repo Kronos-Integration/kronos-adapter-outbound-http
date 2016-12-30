@@ -30,7 +30,7 @@
     "jsdoc": "3.4.3",
     "kronos-endpoint": "^2.14.3",
     "kronos-service": "^4.1.6",
-    "kronos-service-manager": "^3.4.20",
+    "kronos-service-manager": "^3.5.0",
     "mocha": "3.2.0",
     "mock-http": "0.0.9",
     "nock": "9.0.2",
