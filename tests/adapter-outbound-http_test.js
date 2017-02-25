@@ -97,11 +97,8 @@ describe('Outbound HTTP test', function () {
 
     });
 
-
-
   });
-
-
+  
 });
 
 // describe('Post JSON Interceptor test', function () {
