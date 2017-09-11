@@ -14,27 +14,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http.git"
+    "url": "git+https://github.com/Kronos-Integration/kronos-adapter-outbound-http.git"
   },
   "bugs": {
     "url": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http/issues"
   },
   "homepage": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http#readme",
   "engines": {
-    "node": ">=6.9.1"
+    "node": ">=8.4.0"
   },
   "devDependencies": {
-    "chai": "4.1.2",
+    "chai": "^4.1.2",
     "cz-conventional-changelog": "2.0.0",
     "istanbul": "0.4.5",
     "jsdoc": "3.5.4",
     "kronos-endpoint": "^2.14.11",
     "kronos-service": "^4.5.6",
     "kronos-service-manager": "^3.5.10",
-    "mocha": "3.5.2",
+    "mocha": "^3.5.2",
     "mock-http": "0.0.10",
     "nock": "9.0.14",
-    "semantic-release": "^7.0.1"
+    "semantic-release": "^8.0.0"
   },
   "contributors": [
     {
@@ -47,14 +47,17 @@
     }
   ],
   "license": "BSD-2-Clause",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "form-data": "2.3.1",
     "kronos-step": "^5.3.8",
     "node-fetch": "^1.6.3"
+  },
+  "xo": {
+    "space": true
+  },
+  "template": {
+    "repository": {
+      "url": "https://github.com/Kronos-Tools/npm-package-template-minimal.git"
+    }
   }
 }
