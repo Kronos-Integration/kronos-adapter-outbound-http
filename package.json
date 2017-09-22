@@ -34,7 +34,7 @@
     "mocha": "^3.5.3",
     "mock-http": "0.0.10",
     "nock": "9.0.18",
-    "semantic-release": "^8.0.0"
+    "semantic-release": "^8.0.3"
   },
   "contributors": [
     {
