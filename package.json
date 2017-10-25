@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Kronos-Integration/kronos-adapter-outbound-http#readme",
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=8.7.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -31,10 +31,10 @@
     "kronos-endpoint": "^2.14.11",
     "kronos-service": "^4.8.2",
     "kronos-service-manager": "^3.5.10",
-    "mocha": "^4.0.1",
+    "mocha": "^3.5.3",
     "mock-http": "0.0.10",
     "nock": "9.0.25",
-    "semantic-release": "^8.0.4"
+    "semantic-release": "^8.2.2"
   },
   "contributors": [
     {
