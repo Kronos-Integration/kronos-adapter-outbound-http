@@ -33,7 +33,7 @@
     "cz-conventional-changelog": "2.1.0",
     "istanbul": "0.4.5",
     "jsdoc": "3.5.5",
-    "kronos-service": "^4.13.3",
+    "kronos-service": "^4.13.4",
     "kronos-endpoint": "^2.14.14",
     "kronos-service-manager": "^3.5.10",
     "mocha": "^3.5.3",
