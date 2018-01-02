@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "form-data": "2.3.1",
-    "kronos-step": "^5.6.5",
+    "kronos-step": "^5.6.6",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
