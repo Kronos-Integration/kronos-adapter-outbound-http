@@ -38,7 +38,7 @@
     "kronos-service-manager": "^3.5.10",
     "mocha": "^3.5.3",
     "mock-http": "0.0.10",
-    "nock": "9.1.5",
+    "nock": "9.1.6",
     "semantic-release": "^11.1.0"
   },
   "engines": {
