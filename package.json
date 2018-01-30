@@ -34,7 +34,7 @@
     "istanbul": "0.4.5",
     "jsdoc": "3.5.5",
     "kronos-service": "^4.16.2",
-    "kronos-endpoint": "^2.14.15",
+    "kronos-endpoint": "^2.14.16",
     "kronos-service-manager": "^3.5.10",
     "mocha": "^5.0.0",
     "mock-http": "0.0.10",
