@@ -39,7 +39,7 @@
     "mocha": "^5.1.1",
     "mock-http": "0.0.10",
     "nock": "9.2.6",
-    "semantic-release": "^15.4.1"
+    "semantic-release": "^15.5.0"
   },
   "engines": {
     "node": ">=8.11"
