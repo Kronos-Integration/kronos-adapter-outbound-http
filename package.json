@@ -39,10 +39,10 @@
     "mocha": "^5.2.0",
     "mock-http": "0.0.10",
     "nock": "9.5.0",
-    "semantic-release": "^15.5.2"
+    "semantic-release": "^15.9.9"
   },
   "engines": {
-    "node": ">=10.6"
+    "node": ">=8.11.4"
   },
   "repository": {
     "type": "git",
