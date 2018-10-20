@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "form-data": "2.3.2",
+    "form-data": "2.3.3",
     "kronos-step": "^5.7.0",
     "node-fetch": "^2.2.0"
   },
@@ -39,7 +39,7 @@
     "mocha": "^5.2.0",
     "mock-http": "1.0.0",
     "nock": "10.0.1",
-    "semantic-release": "^15.9.17"
+    "semantic-release": "^15.10.4"
   },
   "engines": {
     "node": ">=10.10"
