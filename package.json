@@ -24,7 +24,7 @@
     "test": "./node_modules/.bin/mocha tests/*_test.js"
   },
   "dependencies": {
-    "form-data": "2.5.1",
+    "form-data": "3.0.0",
     "kronos-step": "^5.7.0",
     "node-fetch": "^2.6.0"
   },
